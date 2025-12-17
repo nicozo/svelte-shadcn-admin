@@ -22,5 +22,7 @@ RUN pnpm install --frozen-lockfile
 # アプリケーションコードのコピー
 COPY . .
 
+EXPOSE 5173
+
 # 開発サーバー起動
 CMD ["pnpm", "dev", "--host"]
