@@ -1,0 +1,19 @@
+services:
+  sveltekit-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app # すべてのファイルを共有
+      - pnpm_store:/app/.pnpm-store # node_modulesは共有しない（コンテナ専用）
+      - node_modules:/app/node_modules # node_modulesは共有しない（コンテナ専用）
+    environment:
+      - NODE_ENV=development
+    stdin_open: true
+    tty: true
+
+volumes:
+  pnpm_store:
+  node_modules:
