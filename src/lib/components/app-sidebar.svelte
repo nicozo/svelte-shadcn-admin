@@ -29,6 +29,11 @@
 		},
 		navMain: [
 			{
+				title: "Users",
+				url: "/users",
+				icon: UsersIcon,
+			},
+			{
 				title: "Dashboard",
 				url: "#",
 				icon: DashboardIcon,
@@ -147,9 +152,9 @@
 			<Sidebar.MenuItem>
 				<Sidebar.MenuButton class="data-[slot=sidebar-menu-button]:!p-1.5">
 					{#snippet child({ props })}
-						<a href="##" {...props}>
+						<a href="/" {...props}>
 							<InnerShadowTopIcon class="!size-5" />
-							<span class="text-base font-semibold">Acme Inc.</span>
+							<span class="text-base font-semibold">Rootist</span>
 						</a>
 					{/snippet}
 				</Sidebar.MenuButton>

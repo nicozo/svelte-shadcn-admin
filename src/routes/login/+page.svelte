@@ -12,7 +12,7 @@
 				>
 					<GalleryVerticalEndIcon class="size-4" />
 				</div>
-				Acme Inc.
+				Rootist
 			</a>
 		</div>
 		<div class="flex flex-1 items-center justify-center">

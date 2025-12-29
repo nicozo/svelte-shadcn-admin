@@ -13,7 +13,7 @@
 		<h1 class="text-base font-medium">Documents</h1>
 		<div class="ms-auto flex items-center gap-2">
 			<Button
-				href="https://github.com/shadcn-ui/ui/tree/main/apps/v4/app/(examples)/dashboard"
+				href="https://github.com/nicozo/svelte-shadcn-admin"
 				variant="ghost"
 				size="sm"
 				class="dark:text-foreground hidden sm:flex"
